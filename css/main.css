@@ -5,3 +5,19 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+div {
+	margin: 0 auto;
+	padding-top: 7em;
+	position: relative;
+	width: 320px;
+}
+
+header {
+	background-color: #cc2931;
+}
+
+.medallion {
+	width: 225px;
+	position: absolute;
+}
