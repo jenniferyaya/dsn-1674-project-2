@@ -99,7 +99,6 @@ nav li {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	width: 100%;
-	margin: 0 auto;
 	position: absolute;
 	left: 0px;
 	text-align: center;
@@ -149,7 +148,6 @@ nav li {
 .dragon-symbol {
 	width: 20%;
 	float: left;
-	left: 100px;
 }
 
 .dragon-svg {
@@ -186,18 +184,17 @@ nav li {
 
 .goat-symbol {
 	width: 20%;
-	position: relative;
-	left: 300px;
+	float: left;
 }
 
 .goat-svg {
 	width: 20%;
-	position: relative;
-	left: 175px;
+	float: right;
 }
 
 .p-goat, .p-rooster {
 	color: #fff;
+	clear: both;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	font-size: 0.75em;
@@ -216,14 +213,12 @@ nav li {
 
 .rooster-symbol {
 	width: 20%;
-	position: relative;
-	left: 175px;
+	float: right;
 }
 
 .rooster-svg {
 	width: 20%;
-	position: relative;
-	left: 300px;
+	float: left;
 }
 
 
@@ -236,14 +231,12 @@ nav li {
 
 .ox-svg {
 	width: 20%;
-	position: relative;
-	left: 175px;
+	float: right;
 }
 
 .ox-symbol {
 	width: 20%;
-	position: relative;
-	left: 300px;
+	float: left;
 }
 
 .p-ox {
@@ -253,6 +246,7 @@ nav li {
 	text-align: center;
 	font-style: italic;
 	padding-bottom: 1em;
+	clear: both;
 }
 
 
