@@ -8,8 +8,7 @@ html {
 
 .div-header {
 	margin: 0 auto;
-	padding-top: 5em;
-	padding-bottom: 6em;
+	padding-top: 2em;
 	position: relative;
 	margin: 0;
 }
@@ -21,107 +20,129 @@ header {
 }
 
 .medallion {
-	width: 25%;
-	position: absolute;
-	left: 295px;
-	bottom: 25px;
+	width: 165px;
+	position: relative;
+	left: 105px;
+	top: 55px;
+	text-align: center;
+	margin: 0 auto;
 }
 
 h1 {
 	margin: 0;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
+	font-size: 4em;
 	position: relative;
-	left: 75px;
-	top: 50px;
+	left: 105px;
+	bottom: 80px;
+	text-shadow: #222 2px 3px 4px;
 }
+
+h2 {
+	margin: 0;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	position: relative;
+	left: 105px;
+	bottom: 80px;
+	text-shadow: #222 2px 3px 4px;
+}
+
 
 
 
 
 .div-nav {
-background-color: #222;
+	background-color: #222;
+	padding-bottom: 0;
 }
 
 nav ol {
 	color: white;
+	font-size: 1.25em;
 	list-style-type: none;
 	margin: 0;
-	padding: 2rem 2rem 4rem 2rem;
+	padding: 0;
 	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
 }
 
-.li-dragon .li-goat, .li-rooster, .li-ox {
-	width: 40%;
-	color: #fff;
+a {
+	width: 100%;
+	text-decoration: none;
 }
 
-.li-dragon {
+a:hover {
+	background-color: #000;
+}
+
+
+nav li {
 	float: left;
-	background-color: pink;
-}
-
-.li-goat {
-	float: right;
-}
-
-.li-rooster {
-	float: left;
-	margin: 0;
-	background-color: blue;
-}
-
-.li-ox {
-	float: right;
-	background-color: red;
+	display: block;
+	list-style: none;
+	width: 50%;
+	border: solid 1px #000;
 }
 
 
-
-
-h2 {
+.h3-title {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	margin: 0 auto;
-	position: relative;
-	top: 275px;
-	text-align: center;
-	font-size: 2em;
+	position: absolute;
+	left: 160px;
+	bottom: 150px;
+	font-size: 3em;
+	text-shadow: #222 2px 4px 3px;
+	padding: 0;
 }
 
-.img-banner {
+.banner-img {
+	display: block;
 	width: 100%;
+	position: relative;
+}
+
+.banner {
+	width: 100%;
+	position: relative;
 }
 
 .first {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
-	padding-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 
+
+.h4-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+	left: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
 
 
 .div-dragon {
 	background-color: #e3c236;
 	font-family: 'Open Sans', sans-serif;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 }
 
-h3 {
-	font-weight: bold;
-	font-size: 1.5em;
-	text-align: center;
-	margin: 0;
-	padding-top: 1.5em;
-}
 
 .dragon-symbol {
 	width: 20%;
 	position: relative;
-	left: 100px;
+	left: 125px;
 }
 
 .dragon-svg {
@@ -141,8 +162,9 @@ h3 {
 
 
 
-.h3-goat, .h3-rooster {
+.h4-goat, .h4-rooster {
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 1.5em;
 	text-align: center;
@@ -152,7 +174,7 @@ h3 {
 
 .div-goat {
 	background-color: #222;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 }
 
 .goat-symbol {
@@ -181,7 +203,7 @@ h3 {
 
 .div-rooster {
 	background-color: #bc242a;
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -243,4 +265,8 @@ p {
 
 a {
 	color: #fff;
+}
+
+.link {
+	text-decoration: underline;
 }
