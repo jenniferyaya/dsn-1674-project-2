@@ -257,7 +257,7 @@ footer {
 	padding: 1rem;
 }
 
-p {
+.p-footer {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	margin: 0;
